@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="CubeMesh" id=1]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+mesh = SubResource( 1 )
+material/0 = null
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.0891019, -0.43238, 0.897278, 0.0427262, 0.901691, 0.430264, -0.995106, 0, 0.0988164, 2.80767, 1.95082, 0 )
+fov = 97.0018
